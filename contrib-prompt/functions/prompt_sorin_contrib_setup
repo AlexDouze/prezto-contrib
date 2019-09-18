@@ -63,7 +63,7 @@ function prompt_sorin_contrib_async_callback {
 
         if [[ -n "$(echo "$_k8s_cluster" | grep -E "$dev_regexp")" ]]
            then
-               _prompt_k8s+="%F{7}"
+               _prompt_k8s+="%F{6}"
            else
                _prompt_k8s+="%F{1}"
            fi
